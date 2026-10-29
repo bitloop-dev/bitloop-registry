@@ -3,9 +3,9 @@
 # 1. Fetch the Bitloop source from GitHub
 vcpkg_from_github(
     OUT_SOURCE_PATH  SOURCE_PATH
-    REPO             willmh93/bitloop
+    REPO             bitloop-dev/bitloop
     REF              v${VERSION}
-    SHA512           0
+    SHA512           370e4f48dd9444528f2ae3adebd1947e58253789f9d64c612b8e9c13fa890e442e1d753240da5e8c24bcb40eff6b198a483bf59b6ca10868a9250b1a057bee47
 )
 
 vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTS
