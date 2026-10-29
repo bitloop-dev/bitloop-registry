@@ -73,6 +73,29 @@
           "platform": "!wasm32"
         }
       ]
+    },
+    "webgpu": {
+      "description": "Optional Dawn/Emdawn WebGPU compute support",
+      "dependencies": [
+        {
+          "name": "dawn",
+          "default-features": false,
+          "features": [
+            {
+              "name": "dxc",
+              "platform": "windows"
+            },
+            {
+              "name": "metal",
+              "platform": "osx | ios"
+            },
+            {
+              "name": "vulkan",
+              "platform": "linux | android"
+            }
+          ]
+        }
+      ]
     }
   }
 }

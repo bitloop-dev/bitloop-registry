@@ -12,6 +12,7 @@ vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTS
     FEATURES
         ffmpeg       BITLOOP_WITH_FFMPEG
         ffmpeg-x265  BITLOOP_WITH_FFMPEG_X265
+        webgpu       BITLOOP_WITH_WEBGPU
 )
 
 # If ffmpeg-x265 is selected, also force BITLOOP_WITH_FFMPEG=ON
